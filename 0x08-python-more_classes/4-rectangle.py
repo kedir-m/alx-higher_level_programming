@@ -20,6 +20,7 @@ class Rectangle:
             if i is not self.__height - 1:
                 total += "\n"
         return total
+
     def __repr__(self):
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
 
