@@ -1,1 +1,2 @@
-show databases;
+--This script lists avaipable databases
+SHOW DATABASES;
