@@ -2,7 +2,7 @@
 import sys
 import MySQLdb
 """
-This module defines get_states function
+This script lists all states from the database hbtn_0e_0_usa
 """
 
 
