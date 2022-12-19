@@ -1,10 +1,14 @@
 #!/usr/bin/python3
+"""
+This module defines find_peak function
+"""
 
 
-def find_peak(nums):
+def find_peak(list_of_integers):
     '''
         Finds the pick in a list of numbers
     '''
+    nums = list_of_integers
     length = len(nums)
     if length == 0:
         return None
