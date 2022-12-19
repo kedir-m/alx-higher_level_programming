@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 import sys
 import MySQLdb
+"""
+This script lists all states from the database hbtn_0e_0_usa
+"""
 
 
 def get_states(username, password, db_name):
@@ -20,6 +23,7 @@ def get_states(username, password, db_name):
         print(row)
     cursor.close()
     db.close()
+
 
 if __name__ == "__main__":
     credentials = sys.argv
